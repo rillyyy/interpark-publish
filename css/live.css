@@ -1,0 +1,41 @@
+.live {
+  position: relative;
+  width: 100%;
+
+  padding-bottom: 90px;
+  background-color: yellow;
+}
+.live-inner {
+  position: relative;
+  width: 1280px;
+
+  margin: 0 auto;
+}
+
+.live-title {
+  position: relative;
+  width: 154px;
+  height: 40px;
+  /* display: block; */
+  margin: 0 auto;
+
+  margin-bottom: 10px;
+  background: url("../images/title_live.svg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+.live-main {
+  position: relative;
+  padding: 25px 0;
+}
+.live-main-slide-wrap {
+  position: relative;
+  height: 350px;
+
+  margin-top: 23px;
+  background-color: lime;
+}
+.live-main-slide {
+}
+.live-slide {
+}

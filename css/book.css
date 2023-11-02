@@ -1,0 +1,82 @@
+.book {
+  position: relative;
+  width: 100%;
+
+  background-color: pink;
+  padding-bottom: 90px;
+}
+.book-inner {
+  position: relative;
+  width: 1280px;
+
+  margin: 0 auto;
+}
+
+.book-header {
+  position: relative;
+}
+.book-header-title {
+  position: relative;
+
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+.book-header-text {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  color: #a7a9a7;
+  text-align: center;
+}
+
+.book-main {
+  position: relative;
+  padding: 25px 0;
+}
+.book-main-category {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.book-main-category-list {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.book-main-category-list-button {
+  position: relative;
+  display: block;
+  padding: 0px 20px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 42px;
+
+  color: #111;
+  cursor: pointer;
+  border-radius: 44px;
+}
+.book-main-category-list-button-active {
+  border: 1px solid transparent;
+  background-color: #333;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 44px;
+}
+.book-main-slide-wrap {
+  position: relative;
+  height: 400px;
+  margin-top: 23px;
+  background-color: lime;
+}
+.book-main-slide {
+}
+
+.book-footer {
+  position: relative;
+}

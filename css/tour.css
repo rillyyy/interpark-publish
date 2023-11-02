@@ -1,0 +1,157 @@
+.tour {
+    position: relative;
+    width: 100%;
+    padding-bottom: 90px;
+    background-color: aquamarine;
+}
+.tour-inner {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.tour-header {
+    position: relative;
+}
+.tour-header-title {
+    position: relative;
+    display: block;
+
+    margin-bottom: 10px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+.tour-header-text {
+    position: relative;
+    display: block;
+    font-size: 1.8rem;
+    color: #a7a9a7;
+    text-align: center;
+}
+
+.tour-main {
+    position: relative;
+    padding: 25px 0;
+}
+.tour-main-category {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.tour-main-category-list {
+    position: relative;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.tour-main-category-list li {
+}
+.tour-main-category-list-button {
+    position: relative;
+    display: block;
+    padding: 0px 20px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 42px;
+
+    color: #111;
+    cursor: pointer;
+    border-radius: 44px;
+}
+.tour-main-category-list-button-active {
+    border: 1px solid transparent;
+    background-color: #333;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 44px;
+}
+
+.tour-main-slide-wrap {
+    position: relative;
+    height: 355px;
+
+    margin-top: 23px;
+    background-color: lime;
+}
+.tour-main-slide {
+}
+.tour-slide-item {
+    position: relative;
+    height: 355px;
+}
+.tour-link {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.tour-img {
+    position: relative;
+    width: 100%;
+    height: 244px;
+
+    background-color: red;
+}
+.tour-img img {
+    /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+  */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tour-info {
+    position: relative;
+    background-color: orange;
+    height: calc(100% - 244px);
+
+    padding: 22px 20px;
+}
+.tour-info-up {
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    /* 글자만큼만 영역 차지하도록. 그래서 inline-block 써줬음 */
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #1769ff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.tour-good-list {
+    margin-top: 4px;
+}
+.tour-good-list li {
+}
+.tour-good-list price {
+    color: #333;
+    font-size: 2rem;
+}
+.tour-good-list price b {
+    font-weight: 700;
+}
+.tour-good-list-desc-title {
+    color: #1769ff;
+    font-size: 1.5rem;
+}
+.tour-good-list-desc {
+    color: #333;
+    font-size: 1.5rem;
+    /* span태그는 inline이기에, margin주려면 display: block필요함.  */
+    margin: 5px 0;
+    display: block;
+}
+
+.tour-footer {
+}
