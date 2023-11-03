@@ -36,6 +36,19 @@
   background-color: lime;
 }
 .live-main-slide {
+  position: relative;
 }
-.live-slide {
+.live-slide-item {
+  position: relative;
+}
+.live-img {
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+.live-img img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
