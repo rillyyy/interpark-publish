@@ -30,7 +30,7 @@
 }
 .live-main-slide-wrap {
   position: relative;
-  height: 350px;
+  height: 456px;
 
   margin-top: 23px;
   background-color: lime;
@@ -39,16 +39,51 @@
   position: relative;
 }
 .live-slide-item {
+  height: 456px;
+  position: relative;
+}
+.live-slide-item-info {
   position: relative;
 }
 .live-img {
-  position: relative;
-  height: 100%;
+  height: 456px;
   width: auto;
+  position: relative;
 }
 .live-img img {
   position: relative;
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.live-slide-item-good {
+  position: absolute;
+
+  padding: 30px 30px;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+}
+.live-good-img {
+  position: relative;
+  width: 6.4rem;
+  height: 6.4rem;
+
+  /* margin-right: 25px; */
+  overflow: hidden;
+}
+.live-good-img img {
+  position: relative;
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  border-radius: 0.6rem;
+}
+.live-good-info {
+  position: relative;
 }
