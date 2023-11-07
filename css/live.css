@@ -42,6 +42,11 @@
   height: 456px;
   position: relative;
 }
+.live-slide-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .live-slide-item-info {
   position: relative;
 }
@@ -56,16 +61,21 @@
   width: 100%;
   object-fit: cover;
 }
-
-.live-slide-item-good {
+.live-slide-good-link {
   position: absolute;
-
-  padding: 30px 30px;
   left: 0;
   bottom: 0;
 
+  width: 100%;
+
+  padding: 20px 20px;
+}
+.live-slide-item-good {
+  position: relative;
+
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .live-good-img {
   position: relative;
@@ -73,7 +83,10 @@
   height: 6.4rem;
 
   /* margin-right: 25px; */
+  /* border-radius 적용시 안되고, 
+  overflow: hidden 적용하면 radius가 되는이유? */
   overflow: hidden;
+  border-radius: 0.6rem;
 }
 .live-good-img img {
   position: relative;
@@ -81,9 +94,22 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-
-  border-radius: 0.6rem;
 }
 .live-good-info {
   position: relative;
+}
+.live-good-info-title {
+  position: relative;
+  font-size: 1.5rem;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.live-good-info-desc {
+  position: relative;
+  font-size: 2rem;
+  color: #fff;
+}
+.live-good-info-discount {
+  color: red;
+  font-weight: 700;
 }

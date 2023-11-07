@@ -95,7 +95,9 @@ window.addEventListener("load", function () {
                             <ul class="recommend-good-list">
                                 <li>
                                 <span class="recommend-good-info-price">
-                                    <b>${obj.discount}</b>
+                                    <b>${
+                                      obj.discount ? obj.discount + "%" : ""
+                                    }</b>
                                     <em>${obj.price}</em>
                                     원
                                 </span>

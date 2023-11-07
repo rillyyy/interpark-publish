@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* scss에 대한 이해 */
+/*
+여러줄 주석 기재
+*/
+section {
+  position: relative;
+}
+section a {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+section a > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+section .inner {
+  position: relative;
+  display: flex;
+  background-color: red;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+section .inner .logo {
+  position: relative;
+}
+section .inner .logo.gogo {
+  width: 200px;
+}
+section .inner .logo a:hover {
+  background-color: green;
+}
+section .inner .logo a:active {
+  background-color: yellowgreen;
+}
+section .inner .logo a {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+section .inner .logo a > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  border-radius: 50px;
+  transform: rotate(360deg);
+}
+section {
+  width: 500px;
+}
+
+section .inner .sns {
+  position: relative;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+section .inner .copy {
+  position: relative;
+} /*# sourceMappingURL=test.css.map */
