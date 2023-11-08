@@ -1,9 +1,9 @@
 .ticket {
   position: relative;
   width: 100%;
+  padding-bottom: 90px;
 
   background-color: yellowgreen;
-  padding-bottom: 90px;
 }
 .ticket-inner {
   position: relative;
@@ -16,20 +16,20 @@
 }
 .ticket-header-title {
   position: relative;
+
+  margin-bottom: 10px;
   font-size: 2.8rem;
   font-weight: 700;
   color: #000;
   text-align: center;
-
-  margin-bottom: 10px;
 }
 
 .ticket-header-text {
   position: relative;
   display: block;
-  text-align: center;
   font-size: 1.8rem;
   color: #a7a9a7;
+  text-align: center;
 }
 .ticket-main {
   position: relative;
@@ -73,12 +73,54 @@
 .ticket-main-slide-wrap {
   position: relative;
   height: 520px;
-  background-color: lime;
 
   margin-top: 23px;
+  background-color: lime;
 }
 .ticket-main-slide {
+  position: relative;
 }
+.ticket-slide-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
 
+  background-color: red;
+}
+.ticket-img {
+  position: relative;
+}
+.ticket-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 40rem;
+  object-fit: cover;
+
+  display: none;
+}
+.ticket-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: calc(100% - 40rem);
+  background-color: blue;
+}
+.ticket-good-title {
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.ticket-good-where {
+  position: relative;
+  font-size: 1.5rem;
+  color: #666;
+}
+.ticket-good-date {
+  position: relative;
+}
 .ticket-footer {
 }

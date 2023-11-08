@@ -10,6 +10,7 @@
     <script src="js/recommend.js"></script>
     <script src="js/tour.js"></script>
     <script src="js/ticket.js"></script>
+    <script src="js/live.js"></script>
 
     <!-- swiper JS : 1. 기능을 먼저 불러들여 줌 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
@@ -373,6 +374,7 @@
                 <!-- Swiper -->
                 <div class="swiper ticket-main-slide">
                   <div class="swiper-wrapper">
+                    <!-- js 데이터 연동부분 시작 -->
                     <div class="swiper-slide">
                       <div class="ticket-slide-item">
                         <a href="#">
@@ -382,28 +384,38 @@
                           <div class="ticket-info">
                             <ul class="ticket-good-list">
                               <li>
-                                <span class="">뮤지컬<블랙메리포핀스></span>
+                                <span class="ticket-good-title"
+                                  >뮤지컬<블랙메리포핀스></span
+                                >
                               </li>
                               <li>
-                                <span>서경대학교 공연예술센터 스콘1관</span>
+                                <span class="ticket-good-where"
+                                  >서경대학교 공연예술센터 스콘1관</span
+                                >
                               </li>
-                              <li><span>2023.09.21-2023.12.03</span></li>
-                              <li><span>좌석우위</span></li>
+                              <li>
+                                <span class="ticket-good-date"
+                                  >2023.09.21-2023.12.03</span
+                                >
+                              </li>
+                              <li>
+                                <span class="ticket-good-state">좌석우위</span>
+                              </li>
                             </ul>
                           </div>
                         </a>
                       </div>
                     </div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
+                    <!-- // js 데이터 연동부분 끝 -->
                   </div>
                 </div>
+                <!-- 좌,우측 이동 버튼 -->
+                <button class="slide-prev-button">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+                <button class="slide-next-button">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
               </div>
             </div>
             <!-- 티켓 홈 바로가기 영역 -->
@@ -425,40 +437,43 @@
                 <!-- Swiper -->
                 <div class="swiper live-main-slide">
                   <div class="swiper-wrapper">
+                    <!-- js 데이터 연동 부분 시작 -->
                     <div class="swiper-slide">
                       <div class="live-slide-item">
                         <!-- 기본정보 -->
-                        <a href="#" class="live-slide-link">
+                        <div class="live-slide-link">
                           <!-- 기본정보 출력 -->
-                          <div class="live-slide-item-info">
+                          <a href="#" class="live-slide-item-info">
                             <div class="live-img">
                               <img src="images/l1.png" alt="" />
                             </div>
                             <div class="live-info">
-                              <span>방송예정</span>
-                              <span>네스트호텔 최대 73% 라이브특가</span>
+                              <span class="live-info-title"></span>
+                              <div class="live-info-desc"></div>
                             </div>
                             <div class="live-desc">
-                              <span>11월 02일 (목)</span>
-                              <span><b>18:00</b></span>
+                              <div class="live-desc-wrap">
+                                <div class="live-desc-date"></div>
+                                <div class="live-desc-time"><b></b></div>
+                              </div>
                             </div>
-                          </div>
-                        </a>
+                          </a>
+                        </div>
                         <!-- 제품정보 -->
                         <a href="#" class="live-slide-good-link">
                           <div class="live-slide-item-good">
                             <div class="live-good-img">
-                              <img src="images/l-1.jpg" alt="" />
+                              <img src="" alt="" />
                             </div>
                             <div class="live-good-info">
                               <div class="live-good-info-title">
-                                <span>네스트호텔 라이브특가 구매하러</span>
+                                <span></span>
                               </div>
                               <div class="live-good-info-desc">
-                                <span class="live-good-info-discount">73%</span>
+                                <span class="live-good-info-discount"></span>
                                 <span class="live-good-info-price"
-                                  ><b>125,100</b>원</span
-                                >
+                                  ><b></b
+                                ></span>
                               </div>
                             </div>
                           </div>
@@ -472,9 +487,16 @@
                     <div class="swiper-slide">Slide 6</div>
                     <div class="swiper-slide">Slide 7</div>
                     <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
+                    <!-- // js 데이터 연동 부분 끝 -->
                   </div>
                 </div>
+                <!-- 좌,우측 이동 버튼 -->
+                <button class="slide-prev-button">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+                <button class="slide-next-button">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
               </div>
             </div>
             <!-- 인터파크 라이브 홈 바로가기 영역 -->
@@ -565,6 +587,13 @@
                   </div>
                 </div>
               </div>
+              <!-- 좌,우측 이동 버튼 -->
+              <button class="slide-prev-button">
+                <img src="images/slider_arrow.svg" alt="" />
+              </button>
+              <button class="slide-next-button">
+                <img src="images/slider_arrow.svg" alt="" />
+              </button>
             </div>
             <!-- 도서 홈 바로가기 -->
             <div class="book-footer">
@@ -602,6 +631,13 @@
                   <div class="swiper-slide">Slide 9</div>
                 </div>
               </div>
+              <!-- 좌,우측 이동 버튼 -->
+              <button class="slide-prev-button">
+                <img src="images/slider_arrow.svg" alt="" />
+              </button>
+              <button class="slide-next-button">
+                <img src="images/slider_arrow.svg" alt="" />
+              </button>
             </div>
           </div>
         </section>
@@ -616,10 +652,6 @@
 <!-- Initialize Swiper : 2. 기능 사용함 -->
 <script>
   const swiperTicket = new Swiper(".ticket-main-slide", {
-    slidesPerView: 4,
-    spaceBetween: 28,
-  });
-  const swiperLive = new Swiper(".live-main-slide", {
     slidesPerView: 4,
     spaceBetween: 28,
   });

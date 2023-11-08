@@ -1,60 +1,68 @@
 {
   "total": 8,
 
-  "good_1": {
+  "ticket_1": {
     "image": "images/k1.gif",
-    "title": "태양의서커스 <루치아>",
-    "where": "잠실종합운동장 내 빅탑",
-    "day": "2023.10.25 - 2023.12.31",
+    "title": "어른이 뮤지컬 <난쟁이들>",
+    "where": "플러스씨어터",
+    "day": "2023.11.01 - 2024.01.21",
+    "state": "",
     "url": "a.html"
   },
-  "good_2": {
+  "ticket_2": {
     "image": "images/k2.gif",
-    "title": "태양의서커스 <루치아>",
-    "where": "잠실종합운동장 내 빅탑",
-    "day": "2023.10.25 - 2023.12.31",
+    "title": "뮤지컬 <여신님이 보고 계셔> 10th Anniversary - 스페셜",
+    "where": "마포아트센터 아트홀 맥",
+    "day": "2023.11.24 - 2023.12.02",
+    "state": "단독판매",
     "url": "a.html"
   },
-  "good_3": {
+  "ticket_3": {
     "image": "images/k3.gif",
     "title": "태양의서커스 <루치아>",
     "where": "잠실종합운동장 내 빅탑",
     "day": "2023.10.25 - 2023.12.31",
+    "state": "좌석우위",
     "url": "a.html"
   },
-  "good_4": {
+  "ticket_4": {
     "image": "images/k4.gif",
-    "title": "태양의서커스 <루치아>",
-    "where": "잠실종합운동장 내 빅탑",
-    "day": "2023.10.25 - 2023.12.31",
+    "title": "뮤지컬 <몬테크리스토>",
+    "where": "충무아트센터 대극장",
+    "day": "2023.11.21 - 2024.02.25",
+    "state": "",
     "url": "a.html"
   },
-  "good_5": {
+  "ticket_5": {
     "image": "images/t5.webp",
-    "title": "태양의서커스 <루치아>",
-    "where": "잠실종합운동장 내 빅탑",
-    "day": "2023.10.25 - 2023.12.31",
+    "title": "뮤지컬 <레미제라블>",
+    "where": "블루스퀘어 신한카드홀",
+    "day": "2023.11.30 - 2024.03.10",
+    "state": "단독판매",
     "url": "a.html"
   },
-  "good_6": {
+  "ticket_6": {
     "image": "images/t6.jpg",
-    "title": "태양의서커스 <루치아>",
-    "where": "잠실종합운동장 내 빅탑",
-    "day": "2023.10.25 - 2023.12.31",
+    "title": "뮤지컬 <렌트>",
+    "where": "coex 신한카드 artium",
+    "day": "2023.11.11 - 2024.02.25",
+    "state": "단독판매",
     "url": "a.html"
   },
-  "good_7": {
+  "ticket_7": {
     "image": "images/t7.webp",
-    "title": "태양의서커스 <루치아>",
-    "where": "잠실종합운동장 내 빅탑",
-    "day": "2023.10.25 - 2023.12.31",
+    "title": "뮤지컬 <블랙메리포핀스>",
+    "where": "서경대학교 공연예술센터 스콘1관",
+    "day": "2023.09.21 - 2023.12.03",
+    "state": "단독판매",
     "url": "a.html"
   },
-  "good_8": {
+  "ticket_8": {
     "image": "",
     "title": "",
     "where": "",
     "day": "",
+    "state": "",
     "url": "a.html"
   }
 }

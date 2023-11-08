@@ -18,8 +18,6 @@ window.onload 는 하나밖에 없기에, 다른 곳에서 작성해도 제일 �
 1과 2는 하는 일은 같다. 
 */
 window.addEventListener("load", function () {
-  console.log("추천상품 코딩");
-
   // 추천 상품 슬라이드 기능
   // [의사코딩]글로써, 코딩 시나리오를 작성한다
   // 1. 외부 데이터를 불러온다
