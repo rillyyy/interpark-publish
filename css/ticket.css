@@ -2,8 +2,6 @@
   position: relative;
   width: 100%;
   padding-bottom: 90px;
-
-  background-color: yellowgreen;
 }
 .ticket-inner {
   position: relative;
@@ -75,7 +73,6 @@
   height: 520px;
 
   margin-top: 23px;
-  background-color: lime;
 }
 .ticket-main-slide {
   position: relative;
@@ -84,30 +81,53 @@
   position: relative;
   width: 100%;
   height: 100%;
-
-  background-color: red;
+}
+.ticket-link {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 .ticket-img {
   position: relative;
+  height: 400px;
+  border-radius: 11px;
+  overflow: hidden;
 }
+.ticket-img::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)),
+    linear-gradient(180deg, transparent 68.5%, rgba(0, 0, 0, 0.6));
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
 .ticket-img img {
   position: absolute;
   top: 0;
   left: 0;
   width: auto;
-  height: 40rem;
-  object-fit: cover;
+  height: 100%;
 
-  display: none;
+  object-fit: cover;
 }
 .ticket-info {
+  /* absolute 일 때, 너비-높이 반영되지 않음. 부모 a 태그의 height에 반영되지 않음 */
   position: absolute;
   bottom: 0;
   left: 0;
 
   width: 100%;
   height: calc(100% - 40rem);
-  background-color: blue;
+
+  padding: 1.6rem 0.8rem;
 }
 .ticket-good-title {
   position: relative;
@@ -116,11 +136,31 @@
 }
 .ticket-good-where {
   position: relative;
+
+  margin: 0.7rem 0;
   font-size: 1.5rem;
   color: #666;
 }
 .ticket-good-date {
   position: relative;
+
+  margin-bottom: 0.7rem;
+
+  font-size: 1.4rem;
+  color: #999;
+}
+.ticket-good-state {
+  position: relative;
+  height: 2.4rem;
+  display: inline-block;
+  padding: 0 0.8rem;
+  border: 1px solid;
+
+  border-color: rgba(74, 149, 255, 0.3);
+  font-size: 1.1rem;
+  line-height: 2.4rem;
+  color: #4a95ff;
+  border-radius: 0.3rem;
 }
 .ticket-footer {
 }

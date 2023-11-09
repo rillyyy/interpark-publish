@@ -25,38 +25,61 @@ window.addEventListener("load", function () {
       //   console.log(obj);
 
       // html 코드
-      let tempTag = `
-      <div class="swiper-slide">
-      <div class="ticket-slide-item">
-        <a href="${obj.url}">
-          <div class="ticket-img">
-            <img src="${obj.image}" alt="" />
-          </div>
-          <div class="ticket-info">
-            <ul class="ticket-good-list">
-              <li>
-                <span class="">${obj.title}</span>
-              </li>
-              <li>
-                <span>${obj.where}</span>
-              </li>
-              <li>
-                <span>${obj.day}</span>
-              </li>
-              <li>
-                <span>${obj.</span>
-              </li>
-            </ul>
-          </div>
-        </a>
-      </div>
-    </div>
-      `;
+      let tempTag = `<div class="swiper-slide">
+                      <div class="ticket-slide-item">
+                        <a href="${obj.url}" class="ticket-link">
+                          <div class="ticket-img">
+                            <img src="${obj.image}" alt="" />
+                          </div>
+                          <div class="ticket-info">
+                            <ul class="ticket-good-list">
+                              <li>
+                                <div class="ticket-good-title">
+                                ${obj.title}
+                                </div>
+                              </li>
+                              <li>
+                                <div class="ticket-good-where">
+                                ${obj.where}
+                                </div>
+                              </li>
+                              <li>
+                                <div class="ticket-good-date">
+                                ${obj.day}
+                                </div>
+                              </li>
+                              <li>
+                                <div class="ticket-good-state">${obj.state}</div>
+                              </li>
+                            </ul>
+                          </div>
+                        </a>
+                      </div>
+                    </div>`;
+      htmlTicketTag += tempTag;
     }
-
     // swiper 에 배치하는 함수 호출
-    showHtmlTag(obj);
+    showHtmlTag(htmlTicketTag);
   }
   // swiper 에 배치하는 함수 생성
-  function showHtmlTag() {}
+  function showHtmlTag(_html) {
+    const tag = document.querySelector(".ticket-main-slide .swiper-wrapper");
+    tag.innerHTML = _html;
+
+    makeSwiper();
+  }
+
+  function makeSwiper() {
+    const swiperTicket = new Swiper(".ticket-main-slide", {
+      slidesPerView: 4,
+      spaceBetween: 28,
+      // 좌,우측 이동 버튼
+      navigation: {
+        prevEl: ".live-main-slide-wrap .slide-prev-button",
+        nextEl: ".live-main-slide-wrap .slide-next-button",
+      },
+      // 슬라이드 4장씩 이동하라!
+      slidesPerGroup: 4,
+    });
+  }
 });

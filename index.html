@@ -377,29 +377,29 @@
                     <!-- js 데이터 연동부분 시작 -->
                     <div class="swiper-slide">
                       <div class="ticket-slide-item">
-                        <a href="#">
+                        <a href="#" class="ticket-link">
                           <div class="ticket-img">
                             <img src="images/k1.gif" alt="" />
                           </div>
                           <div class="ticket-info">
                             <ul class="ticket-good-list">
                               <li>
-                                <span class="ticket-good-title"
-                                  >뮤지컬<블랙메리포핀스></span
-                                >
+                                <div class="ticket-good-title">
+                                  뮤지컬<블랙메리포핀스>
+                                </div>
                               </li>
                               <li>
-                                <span class="ticket-good-where"
-                                  >서경대학교 공연예술센터 스콘1관</span
-                                >
+                                <div class="ticket-good-where">
+                                  서경대학교 공연예술센터 스콘1관
+                                </div>
                               </li>
                               <li>
-                                <span class="ticket-good-date"
-                                  >2023.09.21-2023.12.03</span
-                                >
+                                <div class="ticket-good-date">
+                                  2023.09.21-2023.12.03
+                                </div>
                               </li>
                               <li>
-                                <span class="ticket-good-state">좌석우위</span>
+                                <div class="ticket-good-state">좌석우위</div>
                               </li>
                             </ul>
                           </div>
@@ -480,13 +480,6 @@
                         </a>
                       </div>
                     </div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
                     <!-- // js 데이터 연동 부분 끝 -->
                   </div>
                 </div>
@@ -551,7 +544,6 @@
                   </li>
                 </ul>
               </div>
-
               <!-- 도서 슬라이드 영역 -->
               <div class="book-main-slide-wrap">
                 <!-- Swiper -->
@@ -576,14 +568,6 @@
                         </a>
                       </div>
                     </div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
                   </div>
                 </div>
               </div>
@@ -651,10 +635,6 @@
 
 <!-- Initialize Swiper : 2. 기능 사용함 -->
 <script>
-  const swiperTicket = new Swiper(".ticket-main-slide", {
-    slidesPerView: 4,
-    spaceBetween: 28,
-  });
   const swiperBook = new Swiper(".book-main-slide", {
     slidesPerView: 4,
     spaceBetween: 28,
