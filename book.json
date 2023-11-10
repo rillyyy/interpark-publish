@@ -1,0 +1,74 @@
+{
+  "total": 10,
+
+  "book_1": {
+    "image": "images/b1.jpg",
+    "title": "작별하지 않는다",
+    "author": "한강(韓江)",
+    "price": 12600,
+    "url": "c.html"
+  },
+  "book_2": {
+    "image": "images/b2.jpg",
+    "title": "퓨처 셀프",
+    "author": "벤저민 하디/최은아 역",
+    "price": 17820,
+    "url": "c.html"
+  },
+  "book_3": {
+    "image": "images/b3.jpg",
+    "title": "더 마인드",
+    "author": "하와이 대저택, 하와이 대저택",
+    "price": 17820,
+    "url": "c.html"
+  },
+  "book_4": {
+    "image": "images/b4.jpg",
+    "title": "디케의 눈물",
+    "author": "조국",
+    "price": 16920,
+    "url": "c.html"
+  },
+  "book_5": {
+    "image": "images/b5.jpg",
+    "title": "트렌드 코리아 2024",
+    "author": "김난도, 추예린, 전다현, 전미영, 최지혜",
+    "price": 17100,
+    "url": "c.html"
+  },
+  "book_6": {
+    "image": "images/b6.jpg",
+    "title": "도시와 그 불확실한 벽",
+    "author": "무라카미 하루키()",
+    "price": 17550,
+    "url": "c.html"
+  },
+  "book_7": {
+    "image": "images/b7.jpg",
+    "title": "남에게 보여주려고 인생을 낭비하지 마라",
+    "author": "쇼펜하우어/박제헌 역",
+    "price": 15750,
+    "url": "c.html"
+  },
+  "book_8": {
+    "image": "images/b8.jpg",
+    "title": "나는 왜 이렇게 피곤하게 살까",
+    "author": "크리스텔 프티콜랭/이세진 역",
+    "price": 16200,
+    "url": "c.html"
+  },
+  "book_9": {
+    "image": "images/b9.jpg",
+    "title": "잘되는 집들의 비밀",
+    "author": "정희숙",
+    "price": 16200,
+    "url": "c.html"
+  },
+  "book_10": {
+    "image": "images/b10.jpg",
+    "title": "승리의 함성을 다 같이 외쳐라",
+    "author": "윤세호",
+    "price": 16200,
+    "url": "c.html"
+  }
+}

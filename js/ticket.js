@@ -75,8 +75,8 @@ window.addEventListener("load", function () {
       spaceBetween: 28,
       // 좌,우측 이동 버튼
       navigation: {
-        prevEl: ".live-main-slide-wrap .slide-prev-button",
-        nextEl: ".live-main-slide-wrap .slide-next-button",
+        prevEl: ".ticket-main-slide-wrap .slide-prev-button",
+        nextEl: ".ticket-main-slide-wrap .slide-next-button",
       },
       // 슬라이드 4장씩 이동하라!
       slidesPerGroup: 4,

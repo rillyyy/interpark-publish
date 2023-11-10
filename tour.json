@@ -1,67 +1,76 @@
 {
-    "total": 9,
+  "total": 9,
 
-    "good_1": {
-        "image": "images/t1.jpg",
-        "discount": 13,
-        "price": 26000,
-        "desc": "설명입니다.",
-        "url": "a.html"
-    },
-    "good_2": {
-        "image": "images/t2.jpg",
-        "discount": 13,
-        "price": 26000,
-        "desc": "설명입니다.",
-        "url": "a.html"
-    },
-    "good_3": {
-        "image": "images/t3.jpg",
-        "discount": 13,
-        "price": 26000,
-        "desc": "설명입니다.",
-        "url": "a.html"
-    },
-    "good_4": {
-        "image": "images/t4.webp",
-        "discount": 13,
-        "price": 26000,
-        "desc": "설명입니다.",
-        "url": "a.html"
-    },
-    "good_5": {
-        "image": "images/t5.webp",
-        "discount": 13,
-        "price": 26000,
-        "desc": "설명입니다.",
-        "url": "a.html"
-    },
-    "good_6": {
-        "image": "images/t6.jpg",
-        "discount": 13,
-        "price": 26000,
-        "desc": "설명입니다.",
-        "url": "a.html"
-    },
-    "good_7": {
-        "image": "images/t7.webp",
-        "discount": 13,
-        "price": 26000,
-        "desc": "설명입니다.",
-        "url": "a.html"
-    },
-    "good_8": {
-        "image": "images/t8.webp",
-        "discount": 13,
-        "price": 26000,
-        "desc": "설명입니다.",
-        "url": "a.html"
-    },
-    "good_9": {
-        "image": "images/t9.webp",
-        "discount": 13,
-        "price": 26000,
-        "desc": "설명입니다.",
-        "url": "a.html"
-    }
+  "good_1": {
+    "image": "images/t1.jpg",
+    "title": "하얀 설경 비에이 겨울에 만나는 북해도",
+    "state": "히트상품",
+    "desc": "[북해도 4일]힐링온천 2박+하얀설경/비에이/후라노/삿포로/...",
+    "price": 999000,
+    "url": "a.html"
+  },
+  "good_2": {
+    "image": "images/t2.jpg",
+    "title": "Cabin S",
+    "state": "강력특가",
+    "desc": "아난티 앳 강남",
+    "price": 442961,
+    "url": "a.html"
+  },
+  "good_3": {
+    "image": "images/t3.jpg",
+    "title": "디럭스킹+생맥주 2잔",
+    "state": "강력특가",
+    "desc": "롤링힐스 호텔",
+    "price": 161820,
+    "url": "a.html"
+  },
+  "good_4": {
+    "image": "images/t4.png",
+    "title": "스탠다드->이그제큐티브 트윈",
+    "state": "룸UP",
+    "desc": "제이원 호텔",
+    "price": 72400,
+    "url": "a.html"
+  },
+  "good_5": {
+    "image": "images/t5.jpg",
+    "title": "FULL패키지, 5성급호텔",
+    "state": "국적기직항",
+    "desc": "KE항공_두바이/아부다비 FULL패키지 5일/6일",
+    "price": 1949000,
+    "url": "a.html"
+  },
+  "good_6": {
+    "image": "images/t6.jpg",
+    "title": "5성급,2023년 8월 오픈 초신상 호텔",
+    "state": "후쿠오카",
+    "desc": "더 로얄 파크 캔버스 후쿠오카 나카스",
+    "price": 159699,
+    "url": "a.html"
+  },
+  "good_7": {
+    "image": "images/t7.jpg",
+    "title": "스탠다드 더블 {넷플릭스 스트리밍 서비스/개인ID 필요}",
+    "state": "강력특가",
+    "desc": "호텔 포코 성수",
+    "price": 104896,
+    "url": "a.html"
+  },
+  "good_8": {
+    "image": "images/t8.jpg",
+    "title": "룸온리 초특가",
+    "state": "강력특가",
+    "desc": "인터컨티넨탈 알펜시아 평창",
+    "price": 153648,
+    "url": "a.html"
+  },
+  "good_9": {
+    "image": "images/t9.webp",
+    "title": "2박 예약시 스파 20% 할인권+미니바 1회 무료",
+    "state": "괌",
+    "desc": "힐튼 괌 리조트 앤 스파",
+    "price": 229186,
+    "url": "a.html"
+  }
 }

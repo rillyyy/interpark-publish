@@ -2,7 +2,6 @@
   position: relative;
   width: 100%;
   padding-bottom: 90px;
-  background-color: aquamarine;
 }
 .tour-inner {
   position: relative;
@@ -75,26 +74,26 @@
   height: 355px;
 
   margin-top: 23px;
-  background-color: lime;
 }
 .tour-main-slide {
 }
 .tour-slide-item {
   position: relative;
-  height: 355px;
+  width: 100%;
+  height: 100%;
+  border-radius: 11px;
+  overflow: hidden;
 }
 .tour-link {
   position: relative;
-  display: block;
   width: 100%;
   height: 100%;
+  display: block;
 }
 .tour-img {
   position: relative;
   width: 100%;
   height: 244px;
-
-  background-color: red;
 }
 .tour-img img {
   /* position: absolute;
@@ -109,48 +108,36 @@
 }
 .tour-info {
   position: relative;
-  background-color: orange;
+  width: 100%;
   height: calc(100% - 244px);
-
-  padding: 22px 20px;
 }
 .tour-info-up {
   position: absolute;
-  left: 20px;
-  top: -15px;
-  /* 글자만큼만 영역 차지하도록. 그래서 inline-block 써줬음 */
+  top: -15%;
+  left: 5%;
+
   display: inline-block;
-  padding: 8px 10px;
-  border-radius: 5px;
-  background-color: #1769ff;
-  font-size: 1.5rem;
-  font-weight: 700;
+  padding: 5px 12px;
+  font-size: 14px;
   color: #fff;
-  text-align: center;
+  font-weight: 700;
+  background-color: #1769ff;
+  border-radius: 4px;
+  line-height: 18px;
 }
 
 .tour-good-list {
-  margin-top: 4px;
+  position: relative;
 }
 .tour-good-list li {
 }
-.tour-good-list price {
-  color: #333;
-  font-size: 2rem;
+.tour-good-list-price {
 }
-.tour-good-list price b {
-  font-weight: 700;
+.tour-good-list-price b {
 }
 .tour-good-list-desc-title {
-  color: #1769ff;
-  font-size: 1.5rem;
 }
 .tour-good-list-desc {
-  color: #333;
-  font-size: 1.5rem;
-  /* span태그는 inline이기에, margin주려면 display: block필요함.  */
-  margin: 5px 0;
-  display: block;
 }
 
 .tour-footer {

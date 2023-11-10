@@ -2,7 +2,6 @@
   position: relative;
   width: 100%;
 
-  background-color: pink;
   padding-bottom: 90px;
 }
 .book-inner {
@@ -72,11 +71,89 @@
   position: relative;
   height: 400px;
   margin-top: 23px;
-  background-color: lime;
 }
 .book-main-slide {
 }
+.book-slide-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.book-img {
+  position: relative;
+  width: 100%;
+  height: 335px;
 
+  border: 0.1rem solid rgba(0, 0, 0, 0.06);
+}
+.book-img img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.book-rank {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(250, 59, 29, 0.6);
+  font-size: 18px;
+
+  color: #fff;
+  font-weight: 700;
+}
+/* book-rank 카운트용 가상요소 */
+.book-rank::after {
+  position: relative;
+}
+.book-info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: calc(100% - 335px);
+
+  text-align: center;
+}
+.book-title {
+  position: relative;
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 18px;
+}
+.book-author {
+  position: relative;
+  margin-top: 4px;
+  font-size: 15px;
+  color: #999;
+}
+.book-price {
+  position: relative;
+  margin-top: 5px;
+}
+
+.book-price > span {
+  position: relative;
+  font-size: 15px;
+}
+.book-price > span > b {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+}
 .book-footer {
   position: relative;
 }

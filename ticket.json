@@ -34,7 +34,7 @@
     "url": "a.html"
   },
   "ticket_5": {
-    "image": "images/t5.webp",
+    "image": "images/k5.webp",
     "title": "뮤지컬 <레미제라블>",
     "where": "블루스퀘어 신한카드홀",
     "day": "2023.11.30 - 2024.03.10",
@@ -42,7 +42,7 @@
     "url": "a.html"
   },
   "ticket_6": {
-    "image": "images/t6.jpg",
+    "image": "images/k6.jpg",
     "title": "뮤지컬 <렌트>",
     "where": "coex 신한카드 artium",
     "day": "2023.11.11 - 2024.02.25",
@@ -50,7 +50,7 @@
     "url": "a.html"
   },
   "ticket_7": {
-    "image": "images/t7.webp",
+    "image": "images/k7.webp",
     "title": "뮤지컬 <블랙메리포핀스>",
     "where": "서경대학교 공연예술센터 스콘1관",
     "day": "2023.09.21 - 2023.12.03",

@@ -11,6 +11,7 @@
     <script src="js/tour.js"></script>
     <script src="js/ticket.js"></script>
     <script src="js/live.js"></script>
+    <script src="js/book.js"></script>
 
     <!-- swiper JS : 1. 기능을 먼저 불러들여 줌 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
@@ -243,26 +244,26 @@
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
                       <div class="tour-slide-item">
-                        <a href="" class="tour-link">
+                        <a href="${obj.url}" class="tour-link">
                           <div class="tour-img">
-                            <img src="images/t1.jpg" alt="" />
+                            <img src="${obj.image}" alt="" />
                           </div>
                           <div class="tour-info">
-                            <div class="tour-info-up">룸UP</div>
+                            <div class="tour-info-up">${obj.state}</div>
                             <ul class="tour-good-list">
                               <li>
                                 <span class="tour-good-list-desc-title"
-                                  >4성급, 오션&레인보우 브릿지 뷰</span
+                                  >${obj.title}</span
                                 >
                               </li>
                               <li>
                                 <span class="tour-good-list-desc"
-                                  >그랜드 닛코 도쿄 다이바</span
+                                  >${obj.desc}</span
                                 >
                               </li>
                               <li>
                                 <span class="tour-good-info-price"
-                                  ><b>233,348</b>원~</span
+                                  ><b>${obj.price}</b>원~</span
                                 >
                               </li>
                             </ul>
@@ -270,14 +271,6 @@
                         </a>
                       </div>
                     </div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
                   </div>
                 </div>
                 <!-- 좌,우측 이동 버튼 -->
@@ -551,17 +544,23 @@
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
                       <div class="book-slide-item">
-                        <a href="">
-                          <div>
+                        <a href="#">
+                          <div class="book-img">
                             <img src="images/b1.jpg" alt="" />
+                            <div class="book-rank">0</div>
                           </div>
-                          <div>
+                          <div class="book-info">
                             <ul>
                               <li>
-                                <span>죽어나간 시간을 위한 애도</span>
+                                <div class="book-title">작별하지 않는다.</div>
                               </li>
                               <li>
-                                <span><b>16,020원</b></span>
+                                <div class="book-author">한강(韓江)</div>
+                              </li>
+                              <li>
+                                <div class="book-price">
+                                  <span><b>12,600</b>원</span>
+                                </div>
                               </li>
                             </ul>
                           </div>
@@ -570,14 +569,14 @@
                     </div>
                   </div>
                 </div>
+                <!-- 좌,우측 이동 버튼 -->
+                <button class="slide-prev-button">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+                <button class="slide-next-button">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
               </div>
-              <!-- 좌,우측 이동 버튼 -->
-              <button class="slide-prev-button">
-                <img src="images/slider_arrow.svg" alt="" />
-              </button>
-              <button class="slide-next-button">
-                <img src="images/slider_arrow.svg" alt="" />
-              </button>
             </div>
             <!-- 도서 홈 바로가기 -->
             <div class="book-footer">
@@ -605,14 +604,6 @@
                   <div class="swiper-slide">
                     <div class="event-slide-item"></div>
                   </div>
-                  <div class="swiper-slide">Slide 2</div>
-                  <div class="swiper-slide">Slide 3</div>
-                  <div class="swiper-slide">Slide 4</div>
-                  <div class="swiper-slide">Slide 5</div>
-                  <div class="swiper-slide">Slide 6</div>
-                  <div class="swiper-slide">Slide 7</div>
-                  <div class="swiper-slide">Slide 8</div>
-                  <div class="swiper-slide">Slide 9</div>
                 </div>
               </div>
               <!-- 좌,우측 이동 버튼 -->
