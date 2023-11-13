@@ -81,8 +81,10 @@
   position: relative;
   width: 100%;
   height: 100%;
-  border-radius: 11px;
+
+  border: 1px solid rgba(0, 0, 0, 0.06);
   overflow: hidden;
+  border-radius: 11px;
 }
 .tour-link {
   position: relative;
@@ -110,20 +112,24 @@
   position: relative;
   width: 100%;
   height: calc(100% - 244px);
+
+  padding: 23px 20px;
 }
 .tour-info-up {
   position: absolute;
-  top: -15%;
-  left: 5%;
+  top: -16px;
+  height: 32px;
+  /*
+position: absolute 이면 inline-block 설정하지 않아도 되네?
 
-  display: inline-block;
-  padding: 5px 12px;
-  font-size: 14px;
-  color: #fff;
-  font-weight: 700;
+*/
+  padding: 0 12px;
   background-color: #1769ff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #fff;
   border-radius: 4px;
-  line-height: 18px;
 }
 
 .tour-good-list {
@@ -131,14 +137,28 @@
 }
 .tour-good-list li {
 }
-.tour-good-list-price {
-}
-.tour-good-list-price b {
-}
 .tour-good-list-desc-title {
+  position: relative;
+  font-size: 15px;
+  color: #1769ff;
 }
 .tour-good-list-desc {
-}
+  position: relative;
+  display: block;
 
+  margin: 4px 0;
+  font-size: 15px;
+  color: #333;
+}
+.tour-good-info-price {
+  position: relative;
+  font-size: 20px;
+  color: #111;
+}
+.tour-good-info-price > b {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+}
 .tour-footer {
 }
