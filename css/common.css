@@ -1,45 +1,61 @@
 /* 슬라이드 좌,우 버튼 */
 .slide-prev-button.swiper-button-disabled {
-    display: none;
+  display: none;
 }
 .slide-next-button.swiper-button-disabled {
-    display: none;
+  display: none;
 }
 
 .slide-prev-button img {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .slide-next-button {
-    position: absolute;
-    top: 50%;
-    right: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
 
-    width: 48px;
-    height: 48px;
-    border: 1px solid #e3e2e3;
-    /* 그림자 */
-    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.13);
-    z-index: 2;
-    background-color: rgba(255, 255, 255, 0.7);
-    cursor: pointer;
-    /* 내용물만 옮겨준다. 좌표옮기기X  */
-    transform: translate(50%, -50%);
-    border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #e3e2e3;
+  /* 그림자 */
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.13);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  /* 내용물만 옮겨준다. 좌표옮기기X  */
+  transform: translate(50%, -50%);
+  border-radius: 50%;
 }
 .slide-prev-button {
-    position: absolute;
-    top: 50%;
-    left: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
 
-    width: 48px;
-    height: 48px;
-    border: 1px solid #e3e2e3;
-    /* 그림자 */
-    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.13);
-    z-index: 2;
-    background-color: rgba(255, 255, 255, 0.7);
-    cursor: pointer;
-    /* 내용물만 옮겨준다. 좌표옮기기X  */
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #e3e2e3;
+  /* 그림자 */
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.13);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  /* 내용물만 옮겨준다. 좌표옮기기X  */
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.footer-button-wrap {
+  position: relative;
+  text-align: center;
+}
+.footer-button {
+  display: inline-block;
+
+  padding: 23px 39px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  border-radius: 38px;
 }

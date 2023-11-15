@@ -12,6 +12,7 @@
     <script src="js/ticket.js"></script>
     <script src="js/live.js"></script>
     <script src="js/book.js"></script>
+    <script src="js/event.js"></script>
 
     <!-- swiper JS : 1. 기능을 먼저 불러들여 줌 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
@@ -189,7 +190,9 @@
             </div>
             <!--  -->
             <div class="recommend-footer">
-              <a href="#">쇼핑 홈 바로가기</a>
+              <div class="footer-button-wrap">
+                <a href="#" class="footer-button">쇼핑 홈 바로가기 ></a>
+              </div>
             </div>
           </div>
         </section>
@@ -252,7 +255,7 @@
                             <div class="tour-info-up">${obj.state}</div>
                             <ul class="tour-good-list">
                               <li>
-                                <div class="tour-good-list-desc-title">
+                                <div class="tour-good-list-desc-title"></div>
                                   ${obj.title}
                                 </div>
                               </li>
@@ -284,7 +287,9 @@
             </div>
             <!-- 투어 홈 버튼 영역 -->
             <div class="tour-footer">
-              <button>투어 홈 바로가기</button>
+              <div class="footer-button-wrap">
+                <a href="#" class="footer-button">투어 홈 바로가기 ></a>
+              </div>
             </div>
           </div>
         </section>
@@ -413,7 +418,9 @@
             </div>
             <!-- 티켓 홈 바로가기 영역 -->
             <div class="ticket-footer">
-              <button>티켓 홈 바로가기</button>
+              <div class="footer-button-wrap">
+                <a href="#" class="footer-button">티켓 홈 바로가기 ></a>
+              </div>
             </div>
           </div>
         </section>
@@ -487,7 +494,9 @@
             </div>
             <!-- 인터파크 라이브 홈 바로가기 영역 -->
             <div class="live-footer">
-              <button>인터파크 라이브 바로가기</button>
+              <div class="footer-button-wrap">
+                <a href="#" class="footer-button">인터파크 라이브 바로가기 ></a>
+              </div>
             </div>
           </div>
         </section>
@@ -580,7 +589,9 @@
             </div>
             <!-- 도서 홈 바로가기 -->
             <div class="book-footer">
-              <button>도서 홈 바로가기</button>
+              <div class="footer-button-wrap">
+                <a href="#" class="footer-button">도서 홈 바로가기 ></a>
+              </div>
             </div>
           </div>
         </section>
@@ -592,9 +603,7 @@
             <!-- 이벤트 제목 -->
             <div class="event-header">
               <h2 class="event-header-title">이벤트</h2>
-              <span class="event-header-text"
-                >인터파크에서 할인혜택을 꼭 챙기세요.</span
-              >
+              <span class="event-header-text">인터파크에서 할인혜택을 꼭 챙기세요.</span>
             </div>
             <!-- 이벤트 슬라이드 -->
             <div class="event-main-slide-wrap">
@@ -602,7 +611,11 @@
               <div class="swiper event-main-slide">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div class="event-slide-item"></div>
+                    <div class="event-slide-item">
+                      <div class="event-img">
+                        <img src="images/e1.jpg" alt="" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -619,19 +632,34 @@
         <!-- //이벤트 영역 -->
       </div>
       <!-- 하단 영역 -->
-      <footer class="footer"></footer>
+      <footer class="event-footer"></footer>
     </div>
+
+    <!-- footer 영역 -->
+    <footer class="footer">
+      <div class="footer-wrap">
+              <!-- footer menu 영역 -->
+      <div class="footer-menu-wrap">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <!-- footer info 영역 -->
+      <div></div>
+      </div>
+    </footer>
   </body>
 </html>
 
 <!-- Initialize Swiper : 2. 기능 사용함 -->
 <script>
-  const swiperBook = new Swiper(".book-main-slide", {
-    slidesPerView: 4,
-    spaceBetween: 28,
-  });
-  const swiperEvent = new Swiper(".event-main-slide", {
-    slidesPerView: 4,
-    spaceBetween: 28,
-  });
 </script>
